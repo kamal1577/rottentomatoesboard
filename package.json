@@ -1,0 +1,35 @@
+{
+  "name": "rottentomatoes",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "server/server.js",
+  "scripts": {
+    "start": "nodemon server/server.js",
+    "build": "webpack -w"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "express": "^4.14.0",
+    "pg": "^7.4.0",
+    "pg-hstore": "^2.3.2",
+    "react": "^0.14.8",
+    "react-router-dom": "^4.2.2",
+    "react-dom": "^16.2.0",
+    "react-form": "^2.16.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^5.0.0",
+    "redux-thunk": "^2.2.0",
+    "sequelize": "^4.28.6",
+    "webpack": "^1.13.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.13",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
